@@ -9,7 +9,7 @@
 
 
 
-<ion-content  padding fullscreen color="dark">
+<ion-content  padding fullscreen color="dark" >
   <ion-slides class="fontCarrusel">
     <ion-slide>
       <ion-img src="/assets/slidefotos/slide1.jpg"></ion-img>
@@ -26,26 +26,40 @@
 
   </ion-slides>
 
+  <ion-item 
+          color="dark2"
+          class="action-dark" >
+    <ion-label 
+           class="action-dark"
+           >{{ MensajeUser }}</ion-label>
+  </ion-item>
+  
 
 
-  <ion-grid fixed class="action-dark" >
+<!-- 
+  <ion-grid fixed 
+            class="action-dark" > -->
 
-<ion-row color="dark">
-      <ion-col 
-            size-lg="3" 
-                size-md="4" 
-                size-sm="6" 
-                size-xm="12"
-       *ngFor="let c of Servicios; let i = index">
+<ion-row color="dark2" >
+      <ion-col    size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"
+      *ngFor="let c of Servicios; let i = index">
           
-          <ion-card class="action-dark">
-            <ion-avatar>
-              <img src="../../assets/icons_app/scissors_img1.jpg">
-            </ion-avatar>
+          <ion-card color="dark" class="ion-padding">
+            
+            
+            <ion-item color="dark">
+              <ion-avatar>
+                <img src="../../assets/icons_app/scissors_img1.jpg">
+              </ion-avatar>
+            <ion-icon slot="end" 
+                      name="ellipsis-vertical-outline"
+                      (click)="lanzarMenu(i)"
+                      ></ion-icon>
+            </ion-item>
+
           <ion-card-header>
-              <ion-card-subtitle class="text-primary">{{c.title}}</ion-card-subtitle>
-              
-            </ion-card-header>    
+            <ion-card-subtitle class="text-primary">{{c.title}}</ion-card-subtitle>
+          </ion-card-header>    
                 <ion-card-content>
                   <!-- <p>
                     {{c.title}}
@@ -63,7 +77,7 @@
   </ion-row>
 
 
-</ion-grid>
+<!-- </ion-grid> -->
 
 
 </ion-content>
