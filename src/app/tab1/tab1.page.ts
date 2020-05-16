@@ -7,6 +7,66 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  public Servicios = [
+
+      {
+        icono: "Tijeras",
+        title: "Corte de pelo",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      },
+      {
+        icono: "Tijeras",
+        title: "Corted de pelo niǹos",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      },
+      {
+        icono: "Tijeras",
+        title: "Barba y cerquillo",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      },
+      {
+        icono: "Tijeras",
+        title: "Corte y barba",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      },
+      {
+        icono: "Tijeras",
+        title: "Limpiesa Facial",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      },
+      {
+        icono: "Tijeras",
+        title: "Corte y estilismo",
+        tiempo: "30 minutos",
+        costo: "$550.00",
+        ajuste: "**"
+
+      }
+
+
+
+
+
+    ]
+
+
+
+
   constructor() {}
 
 }
