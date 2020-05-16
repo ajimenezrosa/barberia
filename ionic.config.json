@@ -1,0 +1,7 @@
+{
+  "name": "AppBarberia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
