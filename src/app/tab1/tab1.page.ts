@@ -11,7 +11,7 @@ export class Tab1Page {
 
       {
         icono: "Tijeras",
-        title: "Corte de pelo",
+        title: "Corte de pelo Caballeros",
         tiempo: "30 minutos",
         costo: "$550.00",
         ajuste: "**"
@@ -35,7 +35,7 @@ export class Tab1Page {
       },
       {
         icono: "Tijeras",
-        title: "Corte y barba",
+        title: "Corte de pelo y barba",
         tiempo: "30 minutos",
         costo: "$550.00",
         ajuste: "**"
@@ -43,7 +43,7 @@ export class Tab1Page {
       },
       {
         icono: "Tijeras",
-        title: "Limpiesa Facial",
+        title: "Limpiesa Facial profunda",
         tiempo: "30 minutos",
         costo: "$550.00",
         ajuste: "**"
