@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,7 +9,7 @@
 
 
 
-<ion-content  padding fullscreen>
+<ion-content  padding fullscreen color="dark">
   <ion-slides class="fontCarrusel">
     <ion-slide>
       <ion-img src="/assets/slidefotos/slide1.jpg"></ion-img>
@@ -28,9 +28,9 @@
 
 
 
-  <ion-grid fixed>
+  <ion-grid fixed class="action-dark" >
 
-<ion-row>
+<ion-row color="dark">
       <ion-col 
             size-lg="3" 
                 size-md="4" 
@@ -38,10 +38,12 @@
                 size-xm="12"
        *ngFor="let c of Servicios; let i = index">
           
-          <ion-card>
-              <!-- <ion-img src="/assets/shapes.svg"></ion-img> -->
+          <ion-card class="action-dark">
+            <ion-avatar>
+              <img src="../../assets/icons_app/scissors_img1.jpg">
+            </ion-avatar>
           <ion-card-header>
-              <ion-card-subtitle>{{c.title}}</ion-card-subtitle>
+              <ion-card-subtitle class="text-primary">{{c.title}}</ion-card-subtitle>
               
             </ion-card-header>    
                 <ion-card-content>
